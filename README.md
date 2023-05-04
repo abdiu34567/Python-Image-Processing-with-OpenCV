@@ -53,7 +53,7 @@ show_image(img)
 apply_filter(img)
 
 # Resize an image
-resized_img = resize_image(img, 500, 500)
+resize_image(img, 500, 500)
 
 # Detect faces in an image
 detect_faces(img)
